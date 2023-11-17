@@ -1,0 +1,46 @@
+.ui-badge {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  .demo-badge-block {
+    width: 63px;
+    height: 63px;
+    background: #000;
+    opacity: 0.2;
+    margin-left: 20px;
+  }
+}
+
+.ui-layout {
+  text-align: center;
+  color: var(--ui-ct-text-h2);
+  .ui-layout-content {
+    min-height: 150px;
+    line-height: 150px;
+    background-color: var(--ui-ck-cyan200);
+  }
+
+  .ui-layout-header {
+    background-color: var(--ui-ck-orange150);
+  }
+
+  .ui-layout-footer {
+    background-color: var(--ui-ck-blue250);
+  }
+
+  .ui-layout-sider {
+    background-color: var(--ui-ck-purple100);
+  }
+}
+
+.ui-col {
+  background-color: var(--ui-ct-primary-disable);
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 20px;
+
+  &:nth-child(odd) {
+    background-color: var(--ui-ct-primary-pressed);
+  }
+}
+
